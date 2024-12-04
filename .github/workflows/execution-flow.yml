@@ -83,7 +83,7 @@ jobs:
     if: failure()
     runs-on: ubuntu-latest
     steps:
-      - name: Output info
+      - name: Output information
         run: |
           echo "Something went wrong"
           echo "${{ toJSON(github) }}"
